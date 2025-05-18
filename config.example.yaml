@@ -1,0 +1,22 @@
+# NiFi MCP Server Configuration
+
+nifi:
+  url: http://localhost:8080/nifi-api
+  auth_type: none
+  username: ""
+  password: ""
+  token: ""
+  ssl_verify: true
+
+openai:
+  api_key: "your-api-key-here"
+  model: "gpt-3.5-turbo"
+
+server:
+  host: 0.0.0.0
+  port: 8000
+  log_level: info
+  debug: false
+  workers: 1
+  reload: false
+  timeout: 60

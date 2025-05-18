@@ -1,0 +1,23 @@
+{
+  "name": "nifi-mcp-server",
+  "version": "1.0.0",
+  "description": "Natural language-based Model Context Protocol Server for Apache NiFi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:server": "node index.js --server-only",
+    "start:ui": "node index.js --ui-only",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nifi",
+    "mcp",
+    "model-context-protocol",
+    "nlp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  }
+} 
